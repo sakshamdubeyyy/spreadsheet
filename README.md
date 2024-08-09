@@ -26,8 +26,7 @@ This project is a React-based spreadsheet application that mimics the functional
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/sakshamdubeyyy/spreadsheet
 
 2. Install Dependencies
 
