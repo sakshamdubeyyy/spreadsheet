@@ -43,16 +43,25 @@
     "tailwindcss": "^3.4.9"
   },
   "jest": {
-  "clearMocks": true,
-  "collectCoverageFrom": ["src/**/*.{js,jsx}"],
-  "coveragePathIgnorePatterns": ["/node_modules/", "/src/index.js"],
-  "coverageReporters": ["html", "text"],
-  "resetMocks": true,
-  "restoreMocks": true,
-  "testMatch": ["**/?(*.)+(spec|test).[jt]s?(x)"],
-  "transform": {
-    "^.+\\.(js|jsx)$": "babel-jest"
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/index.js"
+    ],
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
+    "resetMocks": true,
+    "restoreMocks": true,
+    "testMatch": [
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
   }
-}
-
 }
